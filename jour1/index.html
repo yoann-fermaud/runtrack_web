@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runtrack Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap">
+    <script src="https://kit.fontawesome.com/058d5dcce5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- Lien interne de ma page job06 -->
+        <a href="index.html"><h1>Runtrack web</h1></a>
+        <!-- Lien externe de ma page job06 -->
+        <a href="https://laplateforme.io/">LaPlateforme</a>
+    </header>
+
+    <nav>
+        <!-- nav job02 -->
+    </nav>
+
+    <main>
+
+        <section>
+            <blockquote>
+                Qui pense peu, se trompe beaucoup.
+                <em>Léonard de Vinci</em>
+            </blockquote>
+        </section>
+        
+        <!-- Section formulaire job03 -->
+        <section class="section-form">
+            <h3>Formulaire</h3>
+            <form action="#">
+                <input type="text" name="name" id="name" placeholder="Nom">
+                <input type="password" name="password" id="password" placeholder="Mot de passe">
+    
+                <div>
+                    <label for="conditions">Accepter les conditions d'utilisations</label>
+                    <input type="checkbox" name="conditions" id="conditions">
+                </div>
+    
+                <input type="submit" value="Soumettre">
+            </form>
+        </section>
+        
+        <!-- Section images avec attributs job04 -->
+        <section class="section-cat">
+            <h3>Boîtes contenant les images de chats</h3>
+            <div>
+                <article>
+                    <img src="./image/cat.png" alt="Image d'un chat noir">
+                    <p>Image de chat</p>
+                </article>
+                <article>
+                    <img src="./image/cat.png" alt="Image d'un chat noir">
+                    <p>Image de chat</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section liste ordonnée job07 -->
+        <section class="section-list-ordonne">
+            <h3>Liste ordonnée d'éléments</h3>
+            <ol>
+                <li>Élément 1</li>
+                <li>Élément 2</li>
+                <li>Élément 3</li>
+            </ol>
+        </section>
+
+        <!-- Section tableau simple job05 -->
+        <section class="section-table">
+            <h3>Tableau simple</h3>
+            <table border="0    ">
+                <thead>
+                    <tr>
+                        <th>Animal</th>
+                        <th>Âge</th>
+                        <th>Couleur</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chat</td>
+                        <td>2</td>
+                        <td>Noir</td>
+                    </tr>
+                    <tr>
+                        <td>Chat</td>
+                        <td>4</td>
+                        <td>Roux</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>2 chats</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        
+        <!-- Section video avec contrôles job04 -->
+        <section class="section-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CVf2OI-3-Ng?si=LmH8U2tXsTlPZbW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <h3>Runtrack Web</h3>
+            <!-- Liste non-ordonnée job07 -->
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        <p>&copy; 2023 RuntrackWeb. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        window.onload = function() {
+            alert("La page est chargée!");
+        };
+    </script>
+</body>
+</html>
